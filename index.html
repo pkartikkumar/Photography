@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+  <script src="https://kit.fontawesome.com/625461a505.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#">Crazy<span>Pixel</span></a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#Gallery">About</a></li>
+        <li><a href="#Portrait">Portrait</a></li>
+        <li><a href="#AstroPhotography">Astro</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <section id="header">
+    
+  </section>
+
+  <section id="Gallery">
+    <h2 class="gal-h2">Gallery<hr></h2>
+    <div class="row">
+      <div class="column col-1">
+         <img class="gal-head-img image" src="img/header1.jpg" alt="">        
+         <img class="gal-head-img image" src="img/header2.jpg" alt="">
+         <img class="gal-head-img image" src="img/header3.jpg" alt="">
+         <img class="gal-head-img image" src="img/header6.jpg" alt="">
+      </div>
+      <div class="column col-2">
+         <img class="col-2-img image" src="img/img1.jpg" alt="">        
+         <img class="col-2-img image" src="img/img2.jpg" alt="">
+         <img class="col-2-img image" src="img/img3.jpg" alt="">
+         <img class="col-2-img image" src="img/img4.jpg" alt="">
+      </div>
+      <div class="column col-1">
+         <img class="gal-head-img image" src="img/header7.jpg" alt="">        
+         <img class="gal-head-img image" src="img/header8.jpg" alt="">
+         <img class="gal-head-img image" src="img/header9.jpg" alt="">
+         <img class="gal-head-img image" src="img/header10.jpg" alt="">
+      </div>
+      <div class="column">
+        <img class="col-2-img image" src="img/img5.jpg" alt="">        
+        <img class="col-2-img image" src="img/img7.jpg" alt="">
+        <img class="col-2-img image" src="img/img8.jpg" alt="">
+        <img class="col-2-img image" src="img/img6.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="Portrait">
+    <div class="row">
+      <img class="portraitImg p-img1 image" src="img/portrait2.jpg" alt="">
+      <div class="p-details">
+        <h2 class="">Portrait<hr></h2>
+        <p>A photographic <span>portrait</span> is a picture of someone<br> who knows he is being <span>photographed</span>.</p>      
+    </div>
+      <img class="portraitImg image" src="img/portrait1.jpg" alt="">
+    </div>
+  </section>
+  <section id="AstroPhotography">
+    <div class="astro-details">
+      <h2 class=""><span>Astro</span>Photography<hr></h2>
+    </div>
+  <!-- Slider main container -->
+  <div class="slider">
+    <img src="img/astro1.jpg" class="active  image" />
+    <img src="img/astro2.jpg" class="image"/>
+    <img src="img/header2.jpg" class="image"/>
+    <img src="img/header3.jpg" class="image"/>
+    <img src="img/img13.jpg" class="image"/>
+    <a class="prev" onclick="prevSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+  </section>
+  <section id="Travel">
+    <h2 class="gal-h2 travel-h2">Travel<hr></h2>
+    <div class="row">
+      <div class="column col-1">
+         <img class="gal-head-img image" src="img/header1.jpg" alt="">        
+         <img class="gal-head-img image" src="img/header2.jpg" alt="">
+         <img class="gal-head-img image" src="img/header3.jpg" alt="">
+         <img class="gal-head-img image" src="img/header6.jpg" alt="">
+      </div>
+      <div class="column col-2">
+         <img class="col-2-img image" src="img/img1.jpg" alt="">        
+         <img class="col-2-img image" src="img/img2.jpg" alt="">
+         <img class="col-2-img image" src="img/img3.jpg" alt="">
+         <img class="col-2-img image" src="img/img4.jpg" alt="">
+      </div>
+      <div class="column col-1">
+        <img class="gal-head-img image" src="img/header7.jpg" alt="">        
+        <img class="gal-head-img image" src="img/header8.jpg" alt="">
+        <img class="gal-head-img image" src="img/header9.jpg" alt="">
+      
+    </div>
+  </section>
+
+  <section id="Contact">
+    <h2>Contact <span>us</span><hr></h2>
+    
+      
+      
+        <form action="https://submit-form.com/2uwHywsK" >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <input type="submit" value="Submit">
+        </form>
+      
+      
+      
+  
+
+  </section>
+  
+      
+  <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15079.485137381931!2d77.29797765!3d19.11330185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679669134886!5m2!1sen!2sin" width="100%" height="450" style="border-width:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  
+  
+  
+<section id="footer">
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#Gallery">About Us</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Search">
+      <button id="search-button">Search</button>
+      
+    </div>
+    <div id="log-in">
+      <a href="signUp.html" >Sign Up</a>
+    </div>
+    <p class="footer-p">&copy; 2023 Website made by kartikkumar. All rights reserved.</p>
+  </footer>
+  
+</div>
+</section>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+  
+</body>
+</html>

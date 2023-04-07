@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="auth-container">
+      <a href="#" id="sign-up-link">Sign Up</a>
+    </div>
+
+    <div id="sign-up-form" class="auth-form">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="signup-email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="signup-password" name="password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="#" id="login-link">Log In</a></p>
+    </div>
+
+    <div id="login-form" class="auth-form">
+      <h2>Log In</h2>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="login-email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="login-password" name="password" required>
+        <button type="submit">Log In</button>
+      </form>
+      <p>Don't have an account? <a href="#" id="sign-up-link-2">Sign up</a></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
